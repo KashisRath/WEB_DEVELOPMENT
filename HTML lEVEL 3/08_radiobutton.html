@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio button</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">banana</label>
+        </div>      
+     
+    <br>
+
+        <div>
+            choose the subject:
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">math</label>
+            <input type="checkbox" name="sub" id="science" value="science">
+            <label for="science">science</label>
+            <input type="checkbox" name="sub" id="english" value="eng">
+            <label for="english">english</label>
+        </div>
+       
+    <br>
+
+    <div>
+        choose your profession
+
+        <select name="profession" id="profession">
+            <option value="Select">select your option</option>
+            <option value="stu">student</option>
+            <option value="dev">developer</option>
+        </select>
+        
+        
+        <br>
+
+        <label for="vol">select your voulume level: </label>
+        <input type="range" id="vol" min="0" max="100" step="10" name="vol">
+
+        <br>
+
+        <label for="feedback">please give your valuable feedback :</label>
+        <textarea  id="feedback" cols="30" rows="10" name="feedback" placeholder="write your feedback here"></textarea>
+
+        <br>
+        <br>
+        <button>submit</button>
+    </form>
+</body>
+</html>

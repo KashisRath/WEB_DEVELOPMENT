@@ -1,0 +1,24 @@
+/* qs 1 */
+div{
+    height:150px;
+    width:300px;
+    background-color: grey;
+    border: 5px black dotted ;
+    margin-right: 1em;
+    margin-bottom: 40px ;
+    margin-left: 2em;
+    padding : 1em;
+}
+
+#d{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: pink;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+li{
+    display: inline;
+}

@@ -1,0 +1,57 @@
+/* part A */
+
+/* q1 */
+#mainTopic
+{
+    color:blue;
+}
+
+/* q2 */
+h1,h3,p
+{
+    text-align: center;
+}
+
+/* q3 */
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* q4 */
+.content{
+    color:white;
+    background-color: cornflowerblue;
+}
+
+/* q5 */
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+/* part B */
+/* q6 */
+button:hover{
+    background-color: yellow;
+    color:blue;
+}
+
+/* q7 */
+p:nth-of-type(2n+1)
+{
+    color: yellow;
+}
+
+/* q8 */
+h1::first-letter{
+    color:red;
+}
+
+/* q9 */
+/* #yes:checked + label{
+    color: darkgreen;
+} */
+input[type="checkbox"]:checked +label{
+    color:rgb(43, 238, 9);
+    font-weight:bold ;
+}

@@ -1,0 +1,95 @@
+/* alpha */
+#alpha{
+    height:200px;
+    width: 200px;
+    background-color: #f5d712b0;
+    
+}
+
+/* opacity */
+#opacity{
+    height:200px;
+    width: 200px;
+    background-color: 
+    #ffa500;
+    /* opacity:0; */
+    opacity: 50%;
+ 
+}
+
+/* transitions */
+#transitions{
+    height: 200px;
+    width: 200px;
+    background-color: #09f124;
+    transition: 1s;
+}
+#transitions:hover{
+    background-color: black;
+     border-radius: 50%;
+}
+
+#transitions2{
+    height: 100px;
+    width: 100px;
+    background-color: #730ee7;
+    margin: 0 auto;
+    margin-top:10px;
+    transition: margin-top 2s ease-in 0.2s;
+}
+#transitions2:hover{
+    margin-top: 200px;
+    background-color: rgb(224, 18, 142);
+     border-radius: 50%;
+}
+
+/* transform */
+section{
+    margin-top:100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    
+    background-color:#7aa874;
+    /* border:2px solid black; */
+    
+    box-shadow:2px 2px 18px rgb(12, 12, 9);
+}
+div:nth-of-type(2n){
+    background-color: #ecf806;
+}
+div:nth-of-type(3n){
+    background-color: #c49f0b;
+}
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform: scaleX(0.5);
+}
+#three{
+    transform: translateX(40px);
+}
+#four{
+    transform:skewX(30deg)
+}
+#five{
+    transform: rotate(30deg) translateX(150px);
+}
+
+
+/* background image */
+#backgroundimage{
+    width: 400px;
+    height: 200px;
+    background-color:#7aa874;
+    /* border:2px solid black; */
+    margin:10px auto;
+    background-image: url("bi.avif");
+    background-size: cover;
+    color:rgb(249, 251, 252);
+}
+
+/* card hover effect */

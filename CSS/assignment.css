@@ -1,0 +1,53 @@
+/* q1 */
+body{
+    background-color: wheat;
+}
+
+/* q2 */
+h1{
+    color: brown;
+}
+
+/* q3 */
+h1,h3,p{
+    text-align: center;
+}
+
+/* q4 */
+p{
+    color: red;
+}
+h3{
+    color: black;
+}
+
+/* q5 */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* q6 */
+a{
+    color: green;
+    text-decoration: none;
+}
+
+/* q7 */
+button{
+    background-color: white;
+    color:black;
+}
+
+/* q7 */
+textarea{
+    color: black;
+}
+/* q9 */
+p{
+    line-height: 30px;
+}
+
+/* q10 */
+h1{
+    text-decoration: underline;
+}

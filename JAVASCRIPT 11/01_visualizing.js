@@ -1,0 +1,22 @@
+function one(){
+    return 1;
+}
+
+function two(){
+    return one() + one();
+}
+
+function three()
+{
+    let ans=two()+one();
+    console.log(ans);
+}
+three();
+
+setTimeout(()=>{
+    console.log("apna college");
+},2000);
+setTimeout(()=>{
+    console.log("hello world");
+},2000);
+console.log("hello...")
